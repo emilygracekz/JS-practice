@@ -1,2 +1,2 @@
-# JS-practice
-This repository contains all practice activities I've done to improve my Javascript skills
+# etchASketch
+This repository contains an etch a sketch that's controlled by arrow keys.

@@ -1,0 +1,57 @@
+body {
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background: white;
+    background: url(iker-urteaga-TL5Vy1IM-uA-unsplash.jpg);
+    background-size: cover;
+}
+
+.shake {
+    background: red;
+    color: white ;
+    width: 80px;
+    height: 30px;
+    border:none;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+canvas {
+    border: 60px solid #e80000;
+    border-radius: 20px;
+    width: 800px;
+    height: 500px;
+    background: white;
+}
+
+canvas.shake {
+    animation: shake 0.5s linear 1;
+}
+
+@keyframes shake {
+    10%,
+    90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%,
+    80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%,
+    60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
